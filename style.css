@@ -1,0 +1,104 @@
+#logo{
+  margin-left: 7%;
+  width: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+body{
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+}
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1.2fr 1fr;
+  text-align: center;
+}
+.content a{
+  padding-top: 20%;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+#active{
+  color: #ffdb0f;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 1.3em;
+  border: none;
+  outline: none;
+  color: black;
+  text-align: center;
+  padding-top: 20%;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 15%;
+}
+
+.dropdown-content p {
+  float: none;
+  color: black;
+  padding: 3% 3%;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content img{
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding-bottom: 10%;
+}
+.contact{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.contact a{
+  padding-bottom: 15%;
+  padding-top: 15%;
+}
+#kontakt{
+  width: 10%;
+}
+
+#tap{
+  padding-top: 16%;
+}
+.front{
+  background-image: url(banan.jpg);
+}
+.front p{
+  margin: 0;
+  padding: 19%;
+  text-align: center;
+  font-size: 9em;
+  font-family: 'Bangers', cursive;
+}

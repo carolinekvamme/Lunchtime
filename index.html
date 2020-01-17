@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LunchTime</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd2ae2e51f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Bangers&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+      <img id="logo" src="logo.png" alt="logo">
+        <div class="content">
+          <a href="index.html" id="active">Hjem</a>
+          <div class="dropdown">
+            <button class="dropbtn">Om oss
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <p>
+                Opplever du mye stress på morningene rundt matpakke lagingen? Bestill din matpakke hos oss!
+              </p>
+              <p>
+                LunchTime tilbyr en matpakke tjeneste til dere foreldre med barn på barneskolen. Nå kan ditt barn sette sammen sin drømmematpakke som er sunn og gir energi til hele skoledagen
+              </p>
+              <p>
+                LunchTime vil bidra med å avlaste stressende foreldre og hindre matpakke presset på skolen.
+              </p>
+              <img src="Strawberry.png" alt="Bilde av et jordbær">
+          </div>
+          </div>
+          <a href="#">Bestill</a>
+          <a href="logginn.html">Logg inn</a>
+          <div class="dropdown">
+            <button class="dropbtn" id="tap">Kontakt oss
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="kontakt">
+              <div class="contact">
+                <a href="instagram"> Instagram
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:example@gmail.com">Mail
+                  <i class="far fa-envelope"></i>
+                </a>
+                <a href="tel:123-456-7890">Telefon
+                  <i class="fas fa-phone"></i>
+                </a>
+                <a href="https://goo.gl/maps/zsHg4HZg6A9GDGtd9" target="_blank">Adresse
+                  <i class="fas fa-map-pin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="front">
+        <p>LunchTime</p>
+      </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCrpCvJ-76nWn2A1GlKQ0TnHgxCUERfkzM",
+        authDomain: "lunchtime-65f79.firebaseapp.com",
+        databaseURL: "https://lunchtime-65f79.firebaseio.com",
+        projectId: "lunchtime-65f79",
+        storageBucket: "lunchtime-65f79.appspot.com",
+        messagingSenderId: "757570317219",
+        appId: "1:757570317219:web:db67d68c0ef038e2d7c816"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+</script>
+  </body>
+</html>
