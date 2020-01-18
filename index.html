@@ -6,13 +6,21 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/bd2ae2e51f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Abel|Bangers&display=swap" rel="stylesheet">
+    <script src="java.js" charset="utf-8"></script>
   </head>
   <body>
     <header>
       <nav>
-      <img id="logo" src="logo.png" alt="logo">
-        <div class="content">
+      <div class="query">
+        <img id="logo" src="logo.png" alt="logo">
+        <div class="icon" onclick="myFunction()">
+          <i class="fas fa-bars fa-2x"></i>
+        </div>
+      </div>
+      <div id="content">
+        <div class="content2">
           <a href="index.html" id="active">Hjem</a>
+          <a class="mediaq" href="Om oss">Om oss</a>
           <div class="dropdown">
             <button class="dropbtn">Om oss
               <i class="fa fa-caret-down"></i>
@@ -28,28 +36,30 @@
                 LunchTime vil bidra med å avlaste stressende foreldre og hindre matpakke presset på skolen.
               </p>
               <img src="Strawberry.png" alt="Bilde av et jordbær">
-          </div>
-          </div>
-          <a href="#">Bestill</a>
-          <a href="logginn.html">Logg inn</a>
-          <div class="dropdown">
-            <button class="dropbtn" id="tap">Kontakt oss
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content" id="kontakt">
-              <div class="contact">
-                <a target="_blank" href="https://www.instagram.com/lunchtime_ub/"> Instagram
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="mailto:example@gmail.com">Mail
-                  <i class="far fa-envelope"></i>
-                </a>
-                <a href="tel:123-456-7890">Telefon
-                  <i class="fas fa-phone"></i>
-                </a>
-                <a href="https://goo.gl/maps/zsHg4HZg6A9GDGtd9" target="_blank">Adresse
-                  <i class="fas fa-map-pin"></i>
-                </a>
+            </div>
+            </div>
+            <a href="#">Bestill</a>
+            <a href="logginn.html">Logg inn</a>
+            <a class="mediaq" href="kontakt">Kontakt oss</a>
+            <div class="dropdown">
+              <button class="dropbtn" id="tap">Kontakt oss
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="kontakt">
+                <div class="contact">
+                  <a target="_blank" href="https://www.instagram.com/lunchtime_ub/"> Instagram
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="mailto:example@gmail.com">Mail
+                    <i class="far fa-envelope"></i>
+                  </a>
+                  <a href="tel:+4798419274">Telefon
+                    <i class="fas fa-phone"></i>
+                  </a>
+                  <a href="https://goo.gl/maps/zsHg4HZg6A9GDGtd9" target="_blank">Adresse
+                    <i class="fas fa-map-pin"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -65,25 +75,5 @@
     <footer>
 
     </footer>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-         https://firebase.google.com/docs/web/setup#available-libraries -->
-
-    <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyCrpCvJ-76nWn2A1GlKQ0TnHgxCUERfkzM",
-        authDomain: "lunchtime-65f79.firebaseapp.com",
-        databaseURL: "https://lunchtime-65f79.firebaseio.com",
-        projectId: "lunchtime-65f79",
-        storageBucket: "lunchtime-65f79.appspot.com",
-        messagingSenderId: "757570317219",
-        appId: "1:757570317219:web:db67d68c0ef038e2d7c816"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-</script>
   </body>
 </html>
